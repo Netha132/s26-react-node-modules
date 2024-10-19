@@ -1,0 +1,62 @@
+/* .App{
+  text-align: center;
+} */
+body{
+  background-color: #282c34;
+  color: #fff;
+}
+h1{
+  text-align: center;
+  background-color: #6f6f70;
+  padding: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+  text-align: justify;
+}
+img{
+  border-radius: 20px;
+}
+
+.krishna-pic {
+  height: 50vmin;
+  border-radius: 50%;
+  border: 2px solid #000;
+  pointer-events: none;
+}
+.krishna{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .krishna-pic {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.bishmaPic1{
+  border: 2px solid #000;
+  position: relative;
+  animation-name: animatebishmaPic1;
+  animation-duration: 30s;
+ animation-iteration-count:infinite;
+ animation-direction: alternate;
+ animation-timing-function:linear;
+}
+@keyframes animatebishmaPic1 {
+  0%   {border:5px solid red; left:0px; top:0px;}
+  25%  {border:5px solid rgb(115, 255, 0); left:950px; top:0px;}
+  50%  {border:5px solid rgb(0, 17, 255); left:0px; right:0px;}
+  75%   {border:5px solid rgb(230, 197, 197); right:0px; left:950px;}
+  100%  {border:5px solid rgb(8, 202, 216); right:0px; left:0px;}
+}
